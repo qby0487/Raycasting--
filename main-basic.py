@@ -37,13 +37,6 @@ map =[
         [1,1,1,1,1,1,1,1,1,1],
     ]
 
-
-'''
-canva = pygame.Surface(screen.get_size())
-canva = canva.convert()
-screen.blit(canva, (0,0))
-#screen.fill(0,0,0)
-'''
 #def drawmap():
 
 
@@ -106,7 +99,6 @@ def movements():
             angle += 360
 
 
-
 def main():
     pygame.init()
     screen = pygame.display.set_mode((width, height))
@@ -134,21 +126,3 @@ def main():
 
 main()
 
-
-
-
-
-'''
-等於math.radians()
-def DegreetoRaidans(degree):
-    pi = math.pi
-    return degree * pi /180
-'''
-
-'''
-pygame.draw.line(畫布, 顏色, (x坐標1, y坐標1), (x坐標2, y坐標2), 線寬)4
-                (x1, y1, x2, y2, cssColor
-drawLine(rayCount, 0, rayCount, data.screen.halfHeight - wallHeight, "cyan");
-drawLine(rayCount, data.screen.halfHeight - wallHeight, rayCount, data.screen.halfHeight + wallHeight, "red");
-drawLine(rayCount, data.screen.halfHeight + wallHeight, rayCount, data.screen.height, "green");
-'''
