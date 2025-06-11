@@ -1,6 +1,6 @@
 import pygame
 import math
-#import numpy as np
+import numpy as np
 
 #screen
 width = 640
@@ -251,4 +251,3 @@ def main():
 
 loadtexture()
 main()
-
